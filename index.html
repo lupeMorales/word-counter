@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css"
+  </head>
+  <body>
+    <main class="wordcount">
+      <section class="wordcount__container">
+        <h1 class="wordcount__title">word count</h1>
+        <form>
+          <label class="imput-container" for="wordcount">
+            <textarea
+              class="input"
+              name="wordcount"
+              id="wordcount"
+              cols="80"
+              rows="10"
+              placeholder="texto..."
+              type="text"
+              required
+            ></textarea>
+            <span class="input__label">Message</span></label
+          >
+        </form>
+        <p class="wordcount__text">
+          <span class="words"></span> words |<span class="chars"></span> char
+        </p>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
