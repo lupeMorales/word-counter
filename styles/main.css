@@ -38,6 +38,8 @@ html {
   padding: 25px;
   color: var(--grey);
   font-size: 1.6rem;
+}
+.input::first-letter {
   text-transform: capitalize;
 }
 .input__label {
@@ -50,6 +52,11 @@ html {
   background: linear-gradient(#120920, #272530);
 }
 .wordcount__text {
+  margin-top: 15px;
+  font-size: 1.6rem;
+  color: var(--white);
+}
+.words {
   margin-top: 15px;
   font-size: 1.6rem;
   color: var(--white);

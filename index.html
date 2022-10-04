@@ -19,24 +19,31 @@
         <h1 class="wordcount__title">word count</h1>
         <form>
           <label class="imput-container" for="wordcount">
+          
+            <span class="input__label">Message</span></label
+          >
             <textarea
-              class="input"
+              class="input js-input"
               name="wordcount"
               id="wordcount"
               cols="80"
               rows="10"
-              placeholder="texto..."
+              placeholder="text..."
               type="text"
               required
             ></textarea>
-            <span class="input__label">Message</span></label
-          >
         </form>
         <p class="wordcount__text">
-          <span class="words"></span> words |<span class="chars"></span> char
+
+          <span class="js-words words"></span> 
+          words |
+          <span class="js-chars"></span>
+            </span
+          >
+          char
         </p>
       </section>
     </main>
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
